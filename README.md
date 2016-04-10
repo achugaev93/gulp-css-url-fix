@@ -1,24 +1,21 @@
-# THIS REPO IS OUT OF DATE. IF YOU WANT TO MAINTAIN IT, PLEASE CONTACT ME VIA EMAIL.
 
-# [gulp](https://github.com/wearefractal/gulp)-css-rebase-urls
+# [gulp](https://github.com/wearefractal/gulp)-css-url-fix
 
-> Rebase relative image URLs 
-
-**This is still a work in progress**
+> Rebase relative URLs of images, fonts, etc 
 
 ## Install
 
 Install with npm
 
 ```
-npm install gulp-css-rebase-urls --save-dev
+npm install gulp-css-url-fix --save-dev
 ```
 
 ## Example
 
 ```javascript
 var gulp = require('gulp');
-var rebaseUrls = require('gulp-css-rebase-urls');
+var rebaseUrls = require('gulp-css-url-fix');
 
 gulp.task('default', function () {
     gulp.src('css/**/*.css')
